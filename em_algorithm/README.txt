@@ -1,8 +1,8 @@
-Backpropagation
----------------- 
+Gaussian Miture Model of EM algorithm
+------------------------------------- 
 Guo Li 
 Apr 1 2019 
-----------------
+-------------------------------------
 
 
 Briefly Description
