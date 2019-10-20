@@ -1,6 +1,8 @@
 EM algorithm with Guassian
 --------------------------
 Guo Li 
+NetID: gli27 
+CSC 446
 Apr 1 2019 
 --------------------------
 
