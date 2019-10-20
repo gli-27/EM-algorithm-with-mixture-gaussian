@@ -7,6 +7,11 @@ Apr 1 2019
 --------------------------
 
 
+Usage
+-----
+The skeleton_em_gaussian.py is the main implementation of em algorithm. Also, you can use smoke_test.py to test the result of implementation.
+
+
 Briefly Description
 -------------------
 This project is a simple implementation of Expectation Maximum algorithm with Gaussian Mixture. The basic idea of this algorithm is to find an appropriate way to cluser those data point, in another words, this is a typical unsupervised machine learning problem. As what we learn from k-means algorithm, we design two steps to approach to the ideal solution, expectation and maximization steps. For expectation step, we need to calculate the expectation for each cluster. And as for maximization step, we need to use the expectation to calculate the parameters for current model. The general evaluation method we use in k-means is Euclidean distance. But this cannot be done for many complex circumstances. Then this mixture of gaussian come to people's attention and we can use multiply gaussian model with different means and convariances together to fitting any complex data distribution. We basically no longer calculate the distance but the probability of each data point belonging to that cluster. Then the expectation step of EM algorithm become calculate the probability of each point to every cluster. The maximization step become the update process for each cluster's parameters: lambda, mean and convariance. The reason why we cannot use stochastic gradient method is because we cannot solve the derivation of sum of log function. Then EM algorithm actually provide us a creative way to solve this kind of problems.
